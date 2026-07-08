@@ -9,7 +9,7 @@ export const AppDataSource = new DataSource({
   database: 'finapp',
   entities: [__dirname + '/**/*.entity{.ts,.js}'],
   migrations: [__dirname + '/migrations/**/*{.ts,.js}'],
-  synchronize: tfalse,
+  synchronize: false,
 });
 
 // export default config;
